@@ -804,6 +804,14 @@ if (!m.isGroup) return reply(lang.groupOnly())
             case 'ping': case 'tes': case 'runtime':
             reply(`Runtime : ${runtime(process.uptime())}`)
             break
+            case 'scbot': case 'scyt': case 'sctian':
+            reply(`*------「 SOURCE CODE 」 ------*
+
+*_Sc Via Mediafire : https://www.mediafire.com/file/zi97farlseupw3z/Christian-ID.zip/file_*
+*_Sc Via Github : -_*
+
+\`\`\`Subscibe : https://youtube.com/c/TianYT99\`\`\``)
+            break
             case 'public': {
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
                 alpha.public = true
@@ -819,6 +827,232 @@ if (!m.isGroup) return reply(lang.groupOnly())
             case 'owner': case 'creator': {
                 alpha.sendContact(m.chat, global.owner, m)
             }
+            break
+            case 'scupdate1':{
+            	let gam = await getBuffer('https://telegra.ph/file/9d8a18b0cce8a69050aff.jpg')
+            var but = [
+				{
+					"urlButton": {
+						"displayText": "Owner",
+						"url": `https://wa.me/6285921165857`
+						}
+					}
+				]
+				await alpha.send5ButImg(from, `*------「 SOURCE CODE 」 ------*\n\n\n*SC V1*\n\n*_Sc Via Mediafire : https://www.mediafire.com/file/zi97farlseupw3z/Christian-ID.zip/file_*\n*_Sc Via Github : -_*\n\n*SC V2*\n\n*_Sc Via MediaFire : https://www.mediafire.com/file/l8zoyc38l420wen/ChrisV1.7z/file_*\n*_Sc Via Github : -_*\n\n*_SC V2 BERPW KIRIM BUKTI SUBS KE OWNER UNTUK MENDAPATKAN PASSWORD!!!_*\n\n\`\`\`Subscibe : https://youtube.com/c/TianYT99\`\`\`` , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				}
+            break
+            case '7hari':{
+            	let gam = await getBuffer('https://telegra.ph/file/7549e4bff7f7c8124b20d.jpg')
+            var but = [
+          {
+            "urlButton": {
+              "displayText": "YouTube Creator",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "Owner",
+"id": 'owner'
+            }
+          },
+{
+            "quickReplyButton": {
+              "displayText": "Back To List",
+"id": 'command'
+            }
+          }
+				]
+				await alpha.send5ButImg(from, `*------「 SEWA BOT 7 HARI 」 ------*\n\n\n*Harga Sewa : 5.000*\n\n*_Keuntungan :_*\n- Bot Masuk Sesuai Waktu Sewa\n- Menyapa Member Join Ke Group\n- Menjaga Group\n- Fitur Addlist/Dellist\n- Dan Lainnya\n\n*_Pembayaran Bisa Di Scan Di Atas Dan Bukti Transfer Di Screenshot Kirim Ke Owner_*\n*_Untuk Menghubungi Owner Silakan Klik Button Dibawah_*` , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				}
+            break
+            case '1bulan':{
+            	let gam = await getBuffer('https://telegra.ph/file/7549e4bff7f7c8124b20d.jpg')
+            var but = [
+          {
+            "urlButton": {
+              "displayText": "YouTube Creator",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "Owner",
+"id": 'owner'
+            }
+          },
+{
+            "quickReplyButton": {
+              "displayText": "Back To List",
+"id": 'command'
+            }
+          }
+				]
+				await alpha.send5ButImg(from, `*------「 SEWA BOT 1 BULAN 」 ------*\n\n\n*Harga Sewa : 10.000*\n\n*_Keuntungan :_*\n- Bot Masuk Sesuai Waktu Sewa\n- Menyapa Member Join Ke Group\n- Menjaga Group\n- Fitur Addlist/Dellist\n- Dan Lainnya\n\n*_Pembayaran Bisa Di Scan Di Atas Dan Bukti Transfer Di Screenshot Kirim Ke Owner_*\n*_Untuk Menghubungi Owner Silakan Klik Button Dibawah_*` , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				}
+            break
+            case '1tahun':{
+            	let gam = await getBuffer('https://telegra.ph/file/7549e4bff7f7c8124b20d.jpg')
+            var but = [
+          {
+            "urlButton": {
+              "displayText": "YouTube Creator",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "Owner",
+"id": 'owner'
+            }
+          },
+{
+            "quickReplyButton": {
+              "displayText": "Back To List",
+"id": 'command'
+            }
+          }
+				]
+				await alpha.send5ButImg(from, `*------「 SEWA BOT 1 TAHUN 」 ------*\n\n\n*Harga Sewa : 20.000*\n\n*_Keuntungan :_*\n- Bot Masuk Sesuai Waktu Sewa\n- Menyapa Member Join Ke Group\n- Menjaga Group\n- Fitur Addlist/Dellist\n- Dan Lainnya\n\n*_Pembayaran Bisa Di Scan Di Atas Dan Bukti Transfer Di Screenshot Kirim Ke Owner_*\n*_Untuk Menghubungi Owner Silakan Klik Button Dibawah_*` , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				}
+            break
+            case 'permanen':{
+            	let gam = await getBuffer('https://telegra.ph/file/7549e4bff7f7c8124b20d.jpg')
+            var but = [
+          {
+            "urlButton": {
+              "displayText": "YouTube Creator",
+              "url": `${youtube}`
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "Owner",
+"id": 'owner'
+            }
+          },
+{
+            "quickReplyButton": {
+              "displayText": "Back To List",
+"id": 'command'
+            }
+          }
+				]
+				await alpha.send5ButImg(from, `*------「 SEWA BOT PERMANEN 」 ------*\n\n\n*Harga Sewa : 25.000*\n\n*_Keuntungan :_*\n- Bot Masuk Sesuai Waktu Sewa\n- Menyapa Member Join Ke Group\n- Menjaga Group\n- Fitur Addlist/Dellist\n- Dan Lainnya\n\n*_Pembayaran Bisa Di Scan Di Atas Dan Bukti Transfer Di Screenshot Kirim Ke Owner_*\n*_Untuk Menghubungi Owner Silakan Klik Button Dibawah_*` , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				}
+            break
+            case 'sewabot':{
+            const listhades = ['7hari', '1bulan', '1tahun', 'permanen']
+			alpha.sendList(from, '*------「 SEWA BOT 」 ------*\n\n*_Mau Sewa Bot? Silakan Klik Dibawah Ini_*', `© ${ownername}`, salam + ' ' +  pushname, '『 KLICK DISINI 』', [
+							{
+								"title": "Sewa Bot",
+								"rows": [
+									{
+										"title": "Sewa Bot 7 Hari",
+										"rowId": "7hari"
+									}
+								]
+							},
+							{
+								"title": "Sewa Bot",
+								"rows": [
+									{
+										"title": "Sewa Bot 1 Bulan",
+										"rowId": "1bulan"
+									}
+								]
+							},{
+								"title": "Sewa Bot",
+								"rows": [
+									{
+										"title": "Sewa Bot 1 Tahun",
+										"rowId": "1tahun"
+									}
+								]
+					        },{
+								"title": "Sewa Bot",
+								"rows": [
+									{
+										"title": "Sewa Bot Permanen",
+										"rowId": "permanen"
+									}
+								]
+							}], {quoted:fgif})
+                typemenu = text
+		}
+            break
+            case 'password':{
+            	let gam = await getBuffer('https://telegra.ph/file/d03b9f4ee0d0a1634e401.jpg')
+            var but = [
+				{
+					"urlButton": {
+						"displayText": "Group WhatsApp",
+						"url": `https://chat.whatsapp.com/Hjay0IC4f6OCtNYJeQ9ORk`
+						}
+					}
+				]
+				await alpha.send5ButImg(from, `*------「 PASSWORD 」 ------*\n\n\n*_Password Sc V2 Adalah = 5128_*\n\n\`\`\`Subscibe : https://youtube.com/c/TianYT99\`\`\`` , `© ${ownername}`,gam, but , { userJid: m.chat, quoted: m })
+				}
+            break
+            case 'scupdate':{
+            const listhades = ['scupdate1', 'owner','allmenu']
+			alpha.sendList(from, '*------「 SOURCE CODE 」 ------*\n\n*_Mau Sc Bang ?_*', `© ${ownername}`, salam + ' ' +  pushname, '✾Klik Disini✾', [
+							{
+								"title": "Source Code",
+								"rows": [
+									{
+										"title": "Source Code 1",
+										"rowId": "scupdate1"
+									}
+								]
+							},
+							{
+								"title": "Donasi",
+								"rows": [
+									{
+										"title": "Donasi Bot",
+										"rowId": "donasi"
+									}
+								]
+							},{
+								"title": "Menu",
+								"rows": [
+									{
+										"title": "Menu Bot",
+										"rowId": "allmenu"
+									}
+								]
+							}], {quoted:fgif})
+                if (!listhades.includes(text)) return alpha.sendList(from, '*------「 SOURCE CODE 」 ------*\n\n*_Mau Sc Bang ?_*', `© ${ownername}`, salam + ' ' + pushname, '✾Klik Disini✾', [
+							{
+								"title": "Source Code",
+								"rows": [
+									{
+										"title": "Source Code 1",
+										"rowId": "scupdate1"
+									}
+								]
+							},
+							{
+								"title": "Donssi",
+								"rows": [
+									{
+										"title": "Donasi Bot",
+										"rowId": "donasi"
+									}
+								]
+							},{
+								"title": "Menu",
+								"rows": [
+									{
+										"title": "Menu Bot",
+										"rowId": "allmenu"
+									}
+								]
+							}], {quoted:fgif})
+                typemenu = text
+		 		   reply(lang.ok())
+		}
             break
             case 'rules':{
             	let gam = await getBuffer(picak + 'Syarat Dan Ketentuan')
@@ -844,7 +1078,7 @@ if (!m.isGroup) return reply(lang.groupOnly())
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Website",              
               "url": `${myweb}`
 
             }
@@ -1581,10 +1815,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
+						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Website","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Website","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
@@ -1598,7 +1832,7 @@ break
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Website","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
@@ -1961,7 +2195,7 @@ break
             break 
 //ephoto360
 case 'youtubegold':case 'youtubesilver':case 'facebookgold':case 'facebooksilver':case 'instagramgold':case 'instagramsilver':case 'twittergold':case 'twittersilver':case 'retrotext':case 'halloweenbats':case 'texthalloween':case 'cardhalloween':case 'birthdaycake':case 'thundertext':case 'icetext':case 'milkcake':case 'snowontext':case 'metalstar':case 'dragonfire':case 'zombie3d':case 'merrycard':case 'generalexam': case 'viettel':case 'embroider':case 'graffititext':case 'graffititext2':case 'graffititext3':case 'covergraffiti':case 'moderngold':case 'capercut':case 'lovecard':case 'heartflashlight':case 'heartcup':case 'sunglightshadow':case 'graffiti3d':case 'moderngoldsilver':case 'moderngold2':case 'modengold3':case 'fabrictext':case 'masteryavatar':case 'messagecoffee':case 'announofwin':case 'writeblood':case 'horrorletter':case 'writehorror':case 'shirtclub':case 'angelwing':case 'christmasseason':case 'projectyasuo':case 'lovelycute':case 'womansday':case 'covergamepubg':case 'nameonheart':case 'funnyhalloween':case 'lightningpubg':case 'greetingcardvideo': case 'christmascard': case 'galaxybat':case 'writegalaxy':case 'starsnight':case 'noeltext':case 'textcakes':case 'pubgbirthday':case 'galaxywallpaper':case 'pubgglicthvideo': case 'pubgmascotlogo':case 'realembroidery':case 'vintagetelevision':case 'funnyanimations':case 'glowingtext':case 'textonglass':case 'cartoonstyle':case 'multicolor':case 'watercolor2':case 'textsky':case 'summerbeach':case '1917text':case 'puppycute':case 'rosebirthday':{
-if (!text) return reply(`Kirim perintah ${prefix + command} *zeeone*`)
+if (!text) return reply(`Kirim perintah ${prefix + command} *Christian*`)
 reply(lang.wait())
 let texpro = global.api('alfa', '/api/ephoto360/'+command, {text:text}, 'apikey')
 sendFileFromUrl(from, texpro, lang.ok(), m)
@@ -1971,7 +2205,7 @@ sendFileFromUrl(from, texpro, lang.ok(), m)
 }
 break
 case 'steellettering':case 'letterstext':case 'barcashirt':case 'premiercup':case 'stylepoligon':case 'lifebuoys':case 'juventusshirt':{
-if (!text) return reply(`Kirim perintah ${prefix + command} *zeeone|ofc*`)
+if (!text) return reply(`Kirim perintah ${prefix + command} *Christian|Id*`)
 if (!text.includes('|')) return reply(`Kirim perintah ${prefix + command} *zeeone|ofc*`)
 mm = args.join(' ')
 m1 = mm.split("|")[0];
@@ -1988,7 +2222,7 @@ break
 
 case 'blackpink':case 'rainbow2':case 'water_pipe':case 'halloween':case 'sketch':case 'sircuit':case 'discovery':case 'metallic2':case 'fiction':case 'demon':case 'transformer':case 'berry':case 'thunder':case 'magma':case '3dstone':case 'neon':case 'glitch':case 'harry_potter':case 'embossed':case 'broken':case 'papercut':case 'gradient':case 'glossy':case 'watercolor':case 'multicolor':case 'neon_devil':case 'underwater':case 'bear':case 'wonderfulg':case 'christmas':case 'neon_light':case 'snow':case 'cloudsky':case 'luxury2':case 'gradient2':case 'summer':case 'writing':case 'engraved':case 'summery':case '3dglue':case 'metaldark':case 'neonlight':case 'oscar':case 'minion':case 'holographic':case 'purple':case 'glossyb':case 'deluxe2':case 'glossyc':case 'fabric':case 'neonc':case 'newyear':case 'newyear2':case 'metals':case 'xmas':case 'blood':case 'darkg':case 'joker':case 'wicker':case 'natural':case 'firework':case 'skeleton':case 'balloon':case 'balloon2':case 'balloon3':case 'balloon4':case 'balloon5':case 'balloon6':case 'balloon7':case 'steel':case 'gloss':case 'denim':case 'decorate':case 'decorate2':case 'peridot':case 'rock':case 'glass':case 'glass2':case 'glass3':case 'glass4':case 'glass5':case 'glass6':case 'glass7':case 'glass8':case 'captain_as2':case 'robot':case 'equalizer':case 'toxic':case 'sparkling':case 'sparkling2':case 'sparkling3':case 'sparkling4':case 'sparkling5':case 'sparkling6':case 'sparkling7':case 'decorative':case 'chocolate':case 'strawberry':case 'koifish':case 'bread':case 'matrix':case 'blood2':case 'neonligth2':case 'thunder2':case '3dbox':case 'neon2':case 'roadw':case 'bokeh':case 'gneon':case 'advanced':case 'dropwater':case 'wall':case 'chrismast':case 'honey':case 'drug':case 'marble':case 'marble2':case 'ice':case 'juice':case 'rusty':case 'abstra':case 'biscuit':case 'wood':case 'scifi':case 'metalr':case 'purpleg':case 'shiny': case 'jewelry':case 'jewelry2':case 'jewelry3':case 'jewelry4':case 'jewelry5':case 'jewelry6':case 'jewelry7':case 'jewelry8':case 'metalh':case 'golden':case 'glitter':case 'glitter2':case 'glitter3':case 'glitter4':case 'glitter5':case 'glitter6':case 'glitter7':case 'metale':case 'carbon':case 'candy':case 'metalb':case 'gemb':case '3dchrome':case 'metalb2':case 'metalg':
 {
-if (!text) return reply(`Kirim perintah ${prefix + command} *zeeone*`)
+if (!text) return reply(`Kirim perintah ${prefix + command} *Christian*`)
 reply(lang.wait())
 let texpro = global.api('alfa', '/api/textpro/'+command, {text:text}, 'apikey')
 sendFileFromUrl(from, texpro, lang.ok(), m)
